@@ -66,7 +66,8 @@ const Sidebar = ({sidebar,category,setCategory}) => {
                 <div className="side-link">
                     <img src={kimpoong} alt="" /><p>김풍천국</p>
                 </div>
-                <div className="side-link">
+                <div className="side-link"onClick={() => window.open('https://www.notion.so/4-5-weeks-of-love-c98cb65ec83e42bba4a3e6c9378d964a?pvs=4', '_blank')}
+                style={{ cursor: 'pointer' }}>
                     <img src={joopearl} alt="" /><p>주호민</p>
                 </div>
             </div>
